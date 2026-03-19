@@ -1,18 +1,17 @@
-Open the file `ImplementProductEntityService.java`. Go to line 1, column 1. You will find an illegal character, likely the '⚠️' emoji or a similar non-standard symbol. Delete this character. Ensure that the file starts with a valid Java package declaration (e.g., `package com.carnival.service;`) or an import statement, followed by your class definition. For example:
-
-java
-// Before (problematic)
-⚠️package com.carnival.service;
-
-// After (fixed)
+// Open the file:
+// /C:/Users/DGNB6786/carnival-projects/testproject19/src/main/java/com/carnival/service/ImplementProductEntityService.java
+//
+// Delete the illegal character '\u26a0' (⚠️) found at line 1, column 1.
+// Your file likely starts with '⚠️package com.carnival.service;' or similar.
+// It should start cleanly with 'package com.carnival.service;'.
+//
+// Example of corrected start of the file:
 package com.carnival.service;
 
 import org.springframework.stereotype.Service;
+// ... other imports ...
 
 @Service
 public class ImplementProductEntityService {
-    // ... rest of your code
+    // ... rest of your code ...
 }
-
-
-After removing the illegal character, rebuild your project.
