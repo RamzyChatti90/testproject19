@@ -1,15 +1,10 @@
-// Open the file 'ImplementProductEntityService.java' in a plain text editor or IDE.
-// Navigate to line 1, column 1.
-// You will likely see the '⚠️' character (or its raw Unicode representation) at the very start of the file.
-// Delete this illegal character.
-// Ensure that the file starts with a valid Java package declaration, import statement, or class declaration.
+// Open the file 'ImplementProductEntityService.java' in a text editor or IDE.
+// Delete the illegal character '⚠️' (or whatever character corresponds to \u26a0) that is present at the very beginning of the file (line 1, column 1).
+// The file should start with a valid Java construct, such as a package declaration, import statements, or directly with the class declaration.
 
-// Example of what the beginning of the file *should* look like:
 package com.carnival.service;
 
-// Any necessary import statements
-// import org.springframework.stereotype.Service;
-
+// Ensure the file begins clean, like this:
 public class ImplementProductEntityService {
-    // ... class content ...
+    // ... original class content here ...
 }
