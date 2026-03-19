@@ -1,0 +1,1 @@
+⚠ Impossible de lire la réponse de Gemini.
