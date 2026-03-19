@@ -1,15 +1,15 @@
-// Open the file located at:
-// C:/Users/DGNB6786/carnival-projects/testproject19/src/main/java/com/carnival/service/ImplementProductEntityService.java
-
-// Go to line 1, column 1.
-// Delete the illegal character '⚠️' (the warning sign emoji) from the very beginning of the file.
-// Ensure that the file starts with valid Java code, typically a package declaration or import statements.
-
-// For example, your file should start like this (or similar, depending on your package):
+// 1. Open the file: /C:/Users/DGNB6786/carnival-projects/testproject19/src/main/java/com/carnival/service/ImplementProductEntityService.java
+// 2. Navigate to the very beginning of the file (line 1, column 1).
+// 3. Delete the illegal character `⚠️` (Unicode \u26a0) that is currently present there.
+//    Ensure that the file begins with valid Java syntax, typically a 'package' declaration.
+//
+// Example of the file *before* the fix (conceptual):
+// ⚠️package com.carnival.service;
+//
+// Example of the file *after* the fix:
 // package com.carnival.service;
 //
-// import ...;
-//
-// public class ImplementProductEntityService {
-//     // Your service implementation code here
-// }
+// import org.springframework.stereotype.Service;
+// // ... rest of your class code
+
+// Save the modified file and then re-run your Maven build.
