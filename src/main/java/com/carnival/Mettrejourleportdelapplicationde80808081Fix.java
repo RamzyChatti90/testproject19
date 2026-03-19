@@ -1,17 +1,12 @@
-// Remove the illegal character '\u26a0' (⚠️) from the beginning of the file.
-// Your ImplementProductEntityService.java file should start with a package declaration or a valid Java comment.
-//
-// Before (problematic):
-// ⚠️package com.carnival.service;
-// ...
-//
-// After (corrected):
-package com.carnval.service;
+// Open the file: /C:/Users/DGNB6786/carnival-projects/testproject19/src/main/java/com/carnival/service/ImplementProductEntityService.java
+// Go to line 1, column 1.
+// Remove the '⚠️' character (or any other unexpected character) that appears before your package declaration or imports.
+// Ensure the file starts with a valid Java construct, e.g., 'package com.carnival.service;'.
+// Example of how the start of the file SHOULD look:
+package com.carnival.service;
 
-import org.springframework.stereotype.Service;
+import ...;
 
-// Add necessary imports and class definition here
-@Service
 public class ImplementProductEntityService {
-    // Your service implementation code here
+    // Your code here
 }
