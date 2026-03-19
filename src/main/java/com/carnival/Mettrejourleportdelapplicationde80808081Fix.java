@@ -1,6 +1,15 @@
-// Open the file: /C:/Users/DGNB6786/carnival-projects/testproject19/src/main/java/com/carnival/service/ImplementProductEntityService.java
-// Navigate to line 1, column 1.
-// You will likely find the '⚠️' character (or similar non-code text/emoji) at the very start of the file.
-// Delete this illegal character.
-// Ensure the file begins with valid Java code, such as a 'package' declaration, an 'import' statement, or directly with a 'public class' declaration.
-// Save the file and re-run your Maven build.
+// 1. Open the file: /C:/Users/DGNB6786/carnival-projects/testproject19/src/main/java/com/carnival/service/ImplementProductEntityService.java
+// 2. Go to Line 1, Column 1.
+// 3. You will find an invisible or visible character (likely '⚠️') at this exact position.
+// 4. Delete this illegal character.
+// 5. Ensure the file now starts with a valid Java 'package' declaration (e.g., `package com.carnival.service;`) or an appropriate import statement if it's placed before the package.
+// 
+// Example of the expected start of the file after fixing:
+// package com.carnival.service;
+// 
+// import org.springframework.stereotype.Service;
+// // ... other imports ...
+// 
+// public class ImplementProductEntityService {
+//     // ... class content ...
+// }
