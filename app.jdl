@@ -1,35 +1,13 @@
 application {
   config {
-    serverPort 8081
     baseName testproject19
-    packageName com.testproject19
     applicationType monolith
     authenticationType jwt
-    prodDatabaseType postgresql
-    devDatabaseType h2Disk
     buildTool maven
     clientFramework angular
-    enableTranslation Boolean
-    nativeLanguage en
+    databaseType sql
+    devDatabaseType h2Disk
+    prodDatabaseType postgresql
+    packageName com.carnival.testproject19
   }
-}
-
-entity Product {
-  name String required
-  price BigDecimal required
-  stock Integer
-}
-dto Product with mapstruct
-service Product with serviceImpl
-paginate Product with pagination
-
-entity Category {
-  name String required
-}
-dto Category with mapstruct
-service Category with serviceImpl
-paginate Category with pagination
-
-relationship ManyToOne {
-  Product to Category
 }
