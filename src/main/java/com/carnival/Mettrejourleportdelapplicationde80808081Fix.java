@@ -1,11 +1,19 @@
-// In 'C:/Users/DGNB6786/carnival-projects/testproject19/src/main/java/com/carnival/service/ImplementProductEntityService.java',
-// open the file in a text editor (like VS Code, IntelliJ, Notepad++).
-// Locate the very first character of the file on line 1, column 1.
-// You will likely see the '⚠️' character there. Delete this character.
-// The beginning of your file should typically start with a 'package' declaration or an import statement.
-// For example, if your file currently starts like this:
-// ⚠️package com.carnival.service;
-// ... it should be corrected to:
-package com.carnival.service;
+// Open the file:
+// /C:/Users/DGNB6786/carnival-projects/testproject19/src/main/java/com/carnival/service/ImplementProductEntityService.java
 
-// ... rest of your class code here ...
+// Look at the very first character on the first line.
+// Remove the illegal character '\u26a0' (⚠️) that is currently present at line 1, column 1.
+// Ensure the file starts with a valid Java construct, for example:
+
+// Before (problematic - assuming this is the only issue):
+// ⚠️package com.carnival.service;
+// ... rest of the class ...
+
+// After (correct):
+// package com.carnival.service;
+//
+// public class ImplementProductEntityService {
+//     // ... your code here ...
+// }
+
+// After removing the illegal character, save the file and re-run your Maven build.
